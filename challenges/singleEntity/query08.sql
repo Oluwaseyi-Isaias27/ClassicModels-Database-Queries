@@ -2,6 +2,6 @@
 -- backticks is used to reference fieldnames in MySQL
 
 SELECT `productLine`, COUNT(*) AS `numberOfProducts`
-	FROM `products`
+    FROM `products`
     GROUP BY `productLine`
     ORDER BY `numberOfProducts` DESC;

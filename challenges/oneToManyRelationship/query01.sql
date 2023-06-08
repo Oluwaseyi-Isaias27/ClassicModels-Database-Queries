@@ -1,4 +1,4 @@
--- Report the account representative for each customer
+-- Question: Report the account representative for each customer
 -- backticks is used to reference fieldnames in MySQL
 
 USE `classicmodels`;
